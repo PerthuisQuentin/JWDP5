@@ -1,3 +1,11 @@
+# Why ?
+
+Fork of https://github.com/OpenClassrooms-Student-Center/JWDP5
+
+Just a fork with local data to avoid mongodb dependency
+
+
+
 # Orinoco #
 
 This is the back end server for Project 5 of the Junior Web Developer path.
