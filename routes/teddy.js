@@ -7,10 +7,10 @@ const things = require('../data');
 const getThingImageUrl = (req, index) => `${req.protocol}://${req.get('host')}/images/teddy_${index + 1}.jpg`;
 
 const teddiesThings = things.map(thing => ({
-    id: 'a',
-    name: 'Bidule A',
-    price: 15000,
-    description: 'Un bidule très utile pour faire des trucs',
+    _id: thing._id,
+    name: thing.name,
+    price: thing.price,
+    description: thing.description,
     colors: thing.variants
 }))
 
